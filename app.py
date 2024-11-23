@@ -4,7 +4,7 @@ from flask import Flask, request, jsonify
 app = Flask(__name__)
 
 # Replace with your actual Gemini API key
-GEMINI_API_KEY = "AIzaSyBlWtovvLo0EQET3kvx9eKV6YG1lQ1p0hw"
+GEMINI_API_KEY = "api-key"
 
 def call_gemini(tags, paragraph):
     """Send data to Gemini API and return processed response."""
