@@ -10,7 +10,7 @@ app.use(cors());
 const PORT = 5000;
 
 // Replace with your actual Gemini API key
-const GEMINI_API_KEY = "AIzaSyBlWtovvLo0EQET3kvx9eKV6YG1lQ1p0hw";
+const GEMINI_API_KEY = "AIzaSyDdmr34ZXqYpJ8SVTZfI164X4TxVvukgk4";
 
 // Middleware
 app.use(bodyParser.json());
@@ -49,6 +49,7 @@ const callGemini = async (tags, paragraph) => {
     throw new Error("Error calling Gemini API");
   }
 };
+
 
 // Function to write data to a file
 const writeToFile = (filename, content) => {
