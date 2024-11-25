@@ -10,7 +10,7 @@ app.use(cors());
 const PORT = 5000;
 
 // Replace with your actual Gemini API key
-const GEMINI_API_KEY = "AIzaSyDdmr34ZXqYpJ8SVTZfI164X4TxVvukgk4";
+const GEMINI_API_KEY = "Gemini API key";
 
 // Middleware
 app.use(bodyParser.json());
